@@ -87,7 +87,7 @@ def download_release(version)
   # just needs to be extracted.
   unless Dir.exist? "realm-swift-#{version}"
     unless File.exist? "realm-swift-#{version}.zip"
-      sh 'curl', '-OL', "https://github.com/realm/realm-swift/releases/download/v#{version}/realm-swift-#{version}.zip"
+      sh 'curl', '-OL', "https://github.com/dacharyc/realm-swift/releases/download/v#{version}/realm-swift-#{version}.zip"
     end
     sh 'unzip', "realm-swift-#{version}.zip"
     FileUtils.rm "realm-swift-#{version}.zip"

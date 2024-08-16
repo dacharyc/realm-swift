@@ -13,8 +13,8 @@ To build Realm against a custom Core branch, update `Package.swift` by updating 
 
 ```diff
     dependencies: [
--        .package(url: "https://github.com/realm/realm-core.git", exact: coreVersion)
-+        .package(url: "https://github.com/realm/realm-core.git", branch: "*your-custom-branch*")
+-        .package(url: "https://github.com/dacharyc/realm-core.git", exact: coreVersion)
++        .package(url: "https://github.com/dacharyc/realm-core.git", branch: "*your-custom-branch*")
     ],
 ```
 

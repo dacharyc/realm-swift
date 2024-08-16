@@ -17,8 +17,8 @@ target 'App' do
   if ENV['REALM_TEST_RELEASE']
     pod 'RealmSwift', ENV['REALM_TEST_RELEASE']
   elsif ENV['REALM_TEST_BRANCH']
-    pod 'Realm', git: 'https://github.com/realm/realm-swift', branch: ENV['REALM_TEST_BRANCH']
-    pod 'RealmSwift', git: 'https://github.com/realm/realm-swift', branch: ENV['REALM_TEST_BRANCH']
+    pod 'Realm', git: 'https://github.com/dacharyc/realm-swift', branch: ENV['REALM_TEST_BRANCH']
+    pod 'RealmSwift', git: 'https://github.com/dacharyc/realm-swift', branch: ENV['REALM_TEST_BRANCH']
   else
     pod 'RealmSwift'
   end

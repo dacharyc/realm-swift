@@ -13,5 +13,5 @@ The API reference is located at [www.mongodb.com/docs/realm-sdks/objc/latest](ht
 ## Generating Docs
 
 You can generate the API docs locally by running `sh build.sh docs` from the root of this repository.
-This requires installation of [jazzy](https://github.com/realm/jazzy/).
+This requires installation of [jazzy](https://github.com/dacharyc/jazzy/).
 You will find the output in `docs/swift_output/` and `docs/objc_output/`.
